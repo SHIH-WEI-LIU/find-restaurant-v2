@@ -34,10 +34,11 @@ app.get('/search', (req, res) => {
   )
   if (keyword.length === 0) {
     alert('請輸入有效字串') 
+    return res.redirect("/")
   }
   if (restaurants.length === 0) {
     alert('無此餐廳')
-    return res.render('index', { restaurants: restaurantList.results, keyword: keyword })
+    return res.redirect("/")
   }
   res.render('index', { restaurants: restaurants, keyword: keyword })
 })

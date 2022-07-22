@@ -1,4 +1,6 @@
 # Find-Restaurant
+![Index page about Restaurant List](./public/Find-Restaurant.png)
+
 A restaurant Demo web application for users that can use this website to search all the foods  around the restaurant location of Demo website 
 If you are interested in above please try it to discover which do you like !!!
 
