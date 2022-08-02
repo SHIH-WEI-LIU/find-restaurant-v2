@@ -7,7 +7,7 @@ If you are interested in above please try it to discover which do you like !!!
 ## Features
 - Users can see all restaurants and their information on the homepage
    * picture
-   * nane
+   * name
    * category
    * rating
    
@@ -27,5 +27,7 @@ on derminal.
 For example if user inputs nothing web will alert 'please try again' or if user inputs incorrect keyword web will alert 'there is notiong to match keyword' etc...
 
 ### Technology
-- JSON-API -> Listing restaurants by use 'JSON'(restaurant api)
+- JSON-API -> Listing restaurants by use 'JSON'(restaurant api) for seeds data
 - template engine -> Using template engine to covert files from html-like to html for browser
+- router -> Using http GET POST etc.. to do route
+- MONGODB -> Using mongoose  help app.js  connect to database
