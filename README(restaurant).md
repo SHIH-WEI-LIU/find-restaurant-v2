@@ -16,15 +16,21 @@ If you are interested in above please try it to discover which do you like !!!
   * phone
   * description
 
+### Create
+- User can click button to create their interested restaurant
+
 ### Searching
 - Type the title of the restaurants in Searc bar
 - You can search restaurants by its English name or Chinese name or category of food contry
-- Using alert function to remind user whose searching situation whether meets the expection by download 
-```bash
-npm i alert-node 
-```
-on derminal. 
-For example if user inputs nothing web will alert 'please try again' or if user inputs incorrect keyword web will alert 'there is notiong to match keyword' etc...
+
+### Detail
+- User can understand the restaurant detail after click the Detail link
+
+### Edit 
+- User can edit the restaurant infomation after click the Edit link
+
+### Delete 
+- User can delete whose not interested restaurant
 
 ### Technology
 - JSON-API -> Listing restaurants by use 'JSON'(restaurant api) for seeds data
