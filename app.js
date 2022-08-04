@@ -6,7 +6,6 @@ const port = 3000
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser') // 引用 body-parser(用來抓取res.body)
 const mongoose = require('mongoose') // 載入 mongoose
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }) // 設定連線到 mongoDB
 const Restaurant = require("./models/Restaurant")//Restaurant.js的模組
 
 //mongoDB連線設定
