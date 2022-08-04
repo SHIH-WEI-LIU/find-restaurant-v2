@@ -1,4 +1,4 @@
-// app.js
+// app.js（主控程式）
 // require packages used in the project
 const express = require('express')
 const app = express()
